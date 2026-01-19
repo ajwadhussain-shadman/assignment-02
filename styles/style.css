@@ -13,9 +13,7 @@
 
 
 /* shared styles */
-
 body{
-    /* max-width: 100%; */
     background-color: #1A0B2E;
 }
 
@@ -64,5 +62,37 @@ body{
      font-size: 1rem;
      font-weight: 500;
      opacity: 90%;
+}
+.hamburger{
+    display: none;
+}
+.hamburger:hover{
+    cursor: pointer;
+}
+
+/* mobile device */
+@media screen and (max-width:576px) {
+    .navbar{
+        justify-content: space-between;
+    }
+    .navbar, .logo, .menu ,.grad-button{
+           margin: 0px;
+        }
+        .navbar .logo h1{
+            font-size: 2rem;
+            margin:16px 20px;
+        }
+     
+         .hamburger{
+            display: block;
+            margin: 16px 20px;
+         }
+       .navbar .menu{
+        display: none;
+       }
+       .navbar .grad-button
+       {
+        display: none
+       }
 }
 
