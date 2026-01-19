@@ -35,6 +35,9 @@ body{
 .text-light-white{
     color: rgba(255, 255, 255, 0.7);
 }
+.text-green{
+    color: #00FF88;
+}
 .grad-background{
     background: linear-gradient( 45deg, #F7E93F 0%, #FB09B4 51%,#9100F8 100%);
 }
@@ -159,8 +162,44 @@ position: relative;
     font-size: 1rem;
     font-weight: 500;
 }
-
-
+/* about section */
+.about{
+    width: 100%;
+    /* padding-top: 50px; */
+    padding-bottom: 120px;
+}
+.about .about-content{
+    width: 75%;
+text-align: center;
+margin:auto;
+padding-bottom: 40px;
+border-bottom: 0.5px solid rgba(255, 255, 255, 0.1) ;
+}
+.about .about-content h1{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.about .about-content p{
+    margin-bottom: 30px;
+}
+.about-data {
+    width: 75%;
+    margin:0 auto;
+    padding: 40px;
+    justify-content: space-around;
+    text-align: center;
+}
+.about-data h1{
+    padding: auto;
+    margin-bottom: 16px;
+    font-size: 3rem;
+    font-weight:900;
+}
+.about-data p{
+    font-size: 1rem;
+    font-weight: 400;
+}
 /* mobile device */
 @media screen and (max-width:576px) {
     .navbar{
