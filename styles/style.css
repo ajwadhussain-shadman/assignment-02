@@ -37,6 +37,10 @@ body{
 .text-green{
     color: #00FF88;
 }
+
+.padding-top{
+    padding-top: 70px;
+}
 .grad-background{
     background: linear-gradient( 45deg, #F7E93F 0%, #FB09B4 51%,#9100F8 100%);
 }
@@ -200,7 +204,9 @@ border-bottom: 0.5px solid rgba(255, 255, 255, 0.1) ;
     font-size: 1rem;
     font-weight: 400;
 }
-
+.data-3 img{
+    margin-bottom: 80px;
+}
 
 .choose{
     background-color: rgba(53, 17, 101, 0.4);
@@ -276,6 +282,12 @@ border-bottom: 0.5px solid rgba(255, 255, 255, 0.1) ;
     max-width: 380px;
     border-radius: 20px;
    
+}
+.video iframe{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 .epi-card .epi-card-content{
@@ -497,6 +509,9 @@ footer{
 .epi-card .epi-card-content{
     padding: 16px;
     gap: 8px;
+}
+.epi-card-content h3{
+    margin: 0px;
 }
 .host{
 max-width:92%;
