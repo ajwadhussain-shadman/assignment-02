@@ -170,6 +170,7 @@ position: relative;
 .about{
     width: 100%;
     padding-bottom: 50px 200px 120px 200px; 
+    padding-bottom: 120px;
 }
 .about .about-content{
 width: 75%;
@@ -203,9 +204,6 @@ border-bottom: 0.5px solid rgba(255, 255, 255, 0.1) ;
 .about-data p{
     font-size: 1rem;
     font-weight: 400;
-}
-.data-3 img{
-    margin-bottom: 80px;
 }
 
 .choose{
