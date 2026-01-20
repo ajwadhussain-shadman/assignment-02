@@ -10,10 +10,11 @@
 }
 
 /* shared styles */
+
 body{
-    max-width: 1600px;
+   max-width: 1600px;
     background-color: #1A0B2E;
-    margin: 0;
+    margin: 0 auto;
    padding: 0;
   overflow-x: hidden;
    
@@ -248,6 +249,79 @@ border-bottom: 0.5px solid rgba(255, 255, 255, 0.1) ;
 .special-layout{
     grid-column: span 2;
     grid-row: span 2;
+}
+
+/* featured section */
+
+.featured{
+ /* border: 1px solid white; */
+ width:75%;
+ height: auto;
+ padding: 120px 200px;
+ gap: 120px;
+
+}
+.featured h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.epi-cards{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.epi-card{
+    background-color: rgba(37, 13, 68, 1);
+    border: 1px solid white;
+    max-width: 380px;
+    border-radius: 20px;
+   
+}
+
+.epi-card .epi-card-content{
+    padding: 24px;
+}
+.epi-card .epi-card-content h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.host{
+max-width: 1200px;
+    margin: 0 auto;
+     margin-top: 120px;
+}
+.host h2{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.host .host-card{
+
+    max-width: 100%;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    padding: 40px;
+    display: flex;
+    gap: 24px;
+}
+.host .host-card .host-social{
+    display: flex;
+    gap: 8px;
+}
+.host .host-card .host-social .social-rings{
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(83, 60, 114, 1);
+    border-radius: 10000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.host .host-card .host-info h3{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 16px;
 }
 
 /* mobile device */
