@@ -202,8 +202,52 @@ border-bottom: 0.5px solid rgba(255, 255, 255, 0.1) ;
 
 
 .choose{
-    border: 1px solid white;
-    color: rgba(53, 17, 101, 0.4);
+    background-color: rgba(53, 17, 101, 0.4);
+    padding: 120px 200px;
+}
+.choose h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.cards{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,225px);
+}
+.card{  
+    padding: 40px;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+}
+.card h2{
+    font-weight: 1.5rem;
+    font-weight: 700;
+    margin: 16px auto;
+}
+.card p{
+    font-size: 1rem;
+    font-weight:400;
+}
+
+
+.big-layout{
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.medium-layout{
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.small-layout{
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.special-layout{
+    grid-column: span 2;
+    grid-row: span 2;
 }
 
 /* mobile device */
@@ -290,5 +334,33 @@ border-bottom: 0.5px solid rgba(255, 255, 255, 0.1) ;
         grid-template-columns: repeat(2,1fr);
         justify-content:space
       }
+
+
+      .choose{
+        /* width: 440px; */
+    background-color: rgba(53, 17, 101, 0.4);
+    width: 100%;
+    padding: 40px 20px;
+    /* padding: 120px 200px; */
+     }
+    .cards{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    margin: 16px 0px;
+}
+.card h2{
+    font-weight: 1.2rem;
+}
+.big-layout , .medium-layout, .small-layout, .special-layout{
+   grid-column: auto;
+   grid-row: auto;
+}
+.choose h1{
+    font-size: 2rem;
+    margin-bottom: 16px;
+    /* padding-top: 40px; */
+}
 }
 
