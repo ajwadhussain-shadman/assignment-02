@@ -389,11 +389,11 @@ footer{
        }
        .banner{
         padding-top: 20px;
-         width: 440px;
+         width: 100%;
          height: auto;
        }
        .hero-background{
-    
+            width: 100%;
               }
     .hero-background img {
    width: 100%;
@@ -402,20 +402,21 @@ footer{
   position: relative;   
     width: 45%;
     height: 42%;
-    left: 120px;
-    bottom: 220px;
+    left: 150px;
+    bottom: 300px;
+    padding-top: 20px;
 }
 .hero-microphone{
        position: absolute;
       width: 23.5%;
       height: 35%;
-      left: 76px;
-      top: 65px; 
+      left: 95px;
+      top: 100px; 
 }
 .hero-badge{
     position: absolute;
-    top: 10px;
-    left: 140px;
+    top: 40px;
+    left: 160px;
     justify-content: center;
     align-items: center;
     box-shadow: 0px 3px 27px  rgba(0, 255, 136, 0.5);
@@ -423,6 +424,7 @@ footer{
 .hero-content {
     width:400px;
     position: absolute;
+    left: -70px;
     margin-top: 24px;
     text-align: center;
 }
@@ -431,13 +433,13 @@ footer{
     padding-bottom: 40px;
    }
       .about .about-content{
-     width: 400px;
+     width: 90%;
      text-align: center;
      margin:auto;
      padding-bottom: 40px;
       }
       .about .about-content h1{
-    font-size: 2rem;
+        font-size: 2rem;
       }
 
     .about-data{
@@ -450,15 +452,15 @@ footer{
 
       .choose{
     background-color: rgba(53, 17, 101, 0.4);
-    width: 100%;
-    padding: 40px 20px;
+    width: 97%;
+    padding: 40px 10px;
      }
     .cards{
     display: grid;
     gap: 30px;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    margin: 16px 0px;
+    margin: 16px 10px;
 }
 .card h2{
     font-weight: 1.2rem;
@@ -470,7 +472,6 @@ footer{
 .choose h1{
     font-size: 2rem;
     margin-bottom: 16px;
-    /* padding-top: 40px; */
 }
 /* featured */
 .featured{
@@ -490,7 +491,7 @@ footer{
     gap: 16px;
 }
 .epi-card{
-    max-width: 400px;
+    max-width: 92%;
     border-radius: 20px;
 }
 .epi-card .epi-card-content{
@@ -498,8 +499,8 @@ footer{
     gap: 8px;
 }
 .host{
-max-width:400px;
-margin: 0 auto;
+max-width:92%;
+margin-right: 40px;
 margin-top: 60px;
 }
 .host h2{
@@ -533,23 +534,24 @@ margin-top: 60px;
     margin: 0 auto;
     gap: 8px;
 }
-.window-background{
+ .window-background{
     display: none;
 }
 .mobile-background{
     display: block;
-}
+} 
 footer{
-    max-width: 440px;
+    width:100%;
     position: relative;
 }
-footer .foot-background{
-    max-width: 440px;
+footer .foot-background img{
+    width:576px;
+     height: 248px;
 }
 .footer-content{
     position: absolute;
-    width: 400px;
-    left: 10px;
+    width: 92%;
+    left: 35px;
     bottom: 35px;
 }
 .footer-content h1{
@@ -559,7 +561,7 @@ footer .foot-background{
     text-align: center;
 }
 .footer-content .foot-logos{
-    width: 255px;
+    width: 58%;
     margin: 0 auto;
     display:flex;
     flex-wrap: wrap;
@@ -569,7 +571,7 @@ footer .foot-background{
 .footer-content .foot-logos .foot-logo{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
 .footer-content .foot-logos .foot-logo a{
     font-size: 1rem;
